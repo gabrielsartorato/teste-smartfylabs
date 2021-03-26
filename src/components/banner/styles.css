@@ -1,0 +1,57 @@
+.smart-name {
+  width: 100%;
+  height: 150px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 4px;
+
+  background: #e9e9e9;
+}
+
+.smart-name h1 {
+  color: black !important;
+}
+
+.smart-name p {
+  margin-top: 8px;
+  color: #bbb6b6 !important;
+}
+
+
+/* Media */
+@media (max-width: 360px) {
+  .smart-name h1 {
+    font-size: 24px;
+  }
+
+  .smart-name p {
+    font-size: 16px;
+    margin-left: 24px;
+  }
+}
+
+@media (min-width: 361px) and (max-width: 411px) {
+  .smart-name h1 {
+    font-size: 24px;
+  }
+
+  .smart-name p {
+    font-size: 16px;
+    margin-left: 16px;
+  }
+}
+
+@media (min-width: 412px) and (max-width: 450px) {
+  .smart-name h1 {
+    font-size: 30px;
+  }
+
+  .smart-name p {
+    font-size: 15px;
+  }
+}
