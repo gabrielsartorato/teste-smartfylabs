@@ -327,9 +327,10 @@
     font-size: 18px;
   }
 
-  .box-detail .box-synopsis-cast .cast + .cast {
-    margin-top: 16px;
+  .box-detail .box-synopsis-cast .cast {
+    padding: 8px;
   }
+
 }
 
 
